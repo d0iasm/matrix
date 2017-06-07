@@ -1,4 +1,10 @@
+Matrix
+======
+
 Matrix size and execution time
+------------------------------
+
+平均実行時間は3回の測定の合計の平均（小数第7位四捨五入）
 
 |           |     1回目    |     2回目    |     3回目    | 平均実行時間 |
 |:----------|:------------:|:------------:|:------------:|:------------:|
@@ -9,8 +15,4 @@ Matrix size and execution time
 | n = 1000  |      be      |      be      |     This     |     This     |
 | n = 10000 |     right    |    center    |     This     |     This     |
 
-平均実行時間は3回の測定の合計の平均（小数第7位四捨五入）
-
-![図1: 正弦波](README_files/figure-markdown_github/unnamed-chunk-1-1.png)
-
-![](README_files/figure-markdown_github/pressure-1.png)
+![図1: 実行時間 O(n^3)](README_files/figure-markdown_github/unnamed-chunk-1-1.png)
