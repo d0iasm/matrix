@@ -23,9 +23,12 @@ for i in range(n):
 
 begin = time.time()
 
-######################################
-# Write code to calculate C = A * B. #
-######################################
+for i in range(n):
+    for j in range(n):
+        sum = 0
+        for k in range(n):
+            sum += a[i][k] * b[k][j]
+        c[i][j] = sum
 
 end = time.time()
 print("time: %.6f sec" % (end - begin))
@@ -39,3 +42,8 @@ for i in range(n):
 # Print out the sum of all values in C.
 # This should be 450 for N=3, 3680 for N=4, and 18250 for N=5.
 print("sum: %.6f" % total)
+
+print("a = \n{0}".format(a))
+print("b = \n{0}".format(b))
+print("c = \n{0}".format(c))
+
