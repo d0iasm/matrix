@@ -27,6 +27,10 @@ Graph
 
 グラフより、実行時間はN^3に比例して増加していることがわかる。
 
-![図1: 実行時間O(n^3) x:0~100](README_files/figure-markdown_github/unnamed-chunk-1-1.png) 図1: 行列サイズ(n=0~100)に対する実行時間O(n^3)
+![図1: 実行時間O(n^3) x:0~100](README_files/figure-markdown_github/unnamed-chunk-1-1.png)
 
-![図2: 実行時間O(n^3) x:0~1000](README_files/figure-markdown_github/unnamed-chunk-2-1.png) 図2: 行列サイズ(n=0~1000)に対する実行時間O(n^3)
+図1: 行列サイズ(n=0~100)に対する実行時間O(n^3)
+
+![図2: 実行時間O(n^3) x:0~1000](README_files/figure-markdown_github/unnamed-chunk-2-1.png)
+
+図2: 行列サイズ(n=0~1000)に対する実行時間O(n^3)
